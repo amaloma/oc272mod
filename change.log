@@ -1,0 +1,5 @@
+/themes/default/init.php
+add 'css/zocial.css' => 'screen', for social log in
+
+/oc/common/views/pages/auth/social.php
+change Theme::get('premium')==1 to Theme::get('premium')!=1
