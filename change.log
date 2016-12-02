@@ -1,5 +1,14 @@
-/themes/default/init.php
-add 'css/zocial.css' => 'screen', for social log in
+oc/common/classes/oc/theme.php
+public static function get($name, $default = NULL)
+    {
+        if($name == 'premium') return true; //mod
+        return (is_array(self::$data) AND array_key_exists($name, self::$data)) ? self::$data[$name] : $default;
+    }
 
-/oc/common/views/pages/auth/social.php
-change Theme::get('premium')==1 to Theme::get('premium')!=1
+oc/common/classes/oc/theme.php 
+public static function checker()
+    {
+        return TRUE; //mod
+
+/themes/default/init.php
+add 'css/zocial.css' => 'screen', for social log 
