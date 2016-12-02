@@ -24,7 +24,7 @@
             </div>
         </div>
     </div>
-    <!-- <div class="page-header"></div>      -->
+    <div class="page-header"></div>     
     <div class="col-sm-offset-2">
       	<a class="btn btn-default" data-toggle="modal" data-dismiss="modal" href="<?=Route::url('oc-panel',array('directory'=>'user','controller'=>'auth','action'=>'register'))?>#register-modal">
         	<?=__('Register')?>

@@ -40,7 +40,6 @@ Theme::$styles = array( '//cdn.jsdelivr.net/bootstrap/3.3.6/css/bootstrap.min.cs
                         '//cdn.jsdelivr.net/chosen/1.0.0/chosen.css' => 'screen',
                         'css/styles.css?v='.Core::VERSION => 'screen',
                         'css/slider.css' => 'screen',
-                        'css/zocial.css' => 'screen',
                     );
 
 if (Theme::$skin!='default')
